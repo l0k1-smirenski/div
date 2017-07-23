@@ -1,6 +1,6 @@
 > |![](https://s17.postimg.org/waef6bisv/div_logo.svg.png) | <h1>DIV</h1>
 > | --- | ---
-> |     | 
+> |     |  Monetising Governance, Infrastructuer and Content for Decenntralised Distributed Social Networks
 > |     | Loki Verloren, July 2017
 
 Abstract
