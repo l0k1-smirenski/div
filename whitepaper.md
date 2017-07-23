@@ -110,3 +110,23 @@ Note that these operations are not just randomly chosen, stake in accounts to be
 The providers of change also are selected by a strict criteria that there can be zero transfers, or votes in the various content monetisation databases, between the change provider and the recipient. The change operation is marked as enacted as one of the delegated responsibilities of Validators, and thus via the Validator Election process, a proper chain of authority is created. These operations do not count as business between two accounts.
 
 There is inevitably accounts which never make any interactions with each other, and by choosing such distant nodes in the financial network graph, users can be assured that this interest payment mechanism cannot be gamed with spammy, intentionally change requiring operations. Instead, after an account makes a payment, the Validator examines their pool of DIVC to ensure that it has at least 1 of every denomination from smallest to largest, and if it finds holes in the supply, it makes a change operation that is invisible to the account needing the change, and appears as an interest payment of 1% of the reqired change quantity, to the DIVS of the change provider. 
+
+The Forum
+===
+This is the most visible part, and is where the primary portion of new tokens are distributed to. The format is basically the same as Steem - the fundamental unit of publication is a text formatted document, in Markdown (DIV will use strict Markdown code, and provide a layout engine along similar lines to stackedit and quip as well as editors derived from these codebases). 
+
+In the initial rollout, there will not be the peer to peer hosting network built yet, and regular urls will be parsed to pull assets into the output of the interface. However, the provision of full internally provided hosting within the network is part of the version 1.0 featureset, and is a top priority to implement.
+
+Self-voting and Curator/Creator Split
+---
+
+Forum posts cannot be voted upon directly by users themselves, but to compensate for this, each post is itself a vote upon itself, and thus the curation reward for any post is always greatest for the user. This is balanced by the increase of curation share to 50%, as curators compose a much larger number of individuals than the account operator, and the incentive must be substantial enough to encourage engagement in the process of discovering quality content.
+
+Automatic Equilibriation of user activity to match market value of tokens
+---
+
+As mentioned in [Refractory Token Ledger](#refractory-token-ledger), in DIV, there is no prescribed interest rate, only a rate target of 5%, around which issuance rates will move up and down in order to average to this target over the period of a month or so. Thus, if posting activity thins out, rewards will escalate beyond 5% in order to induce return of users to reap the growing rewards, and when the amount of activity rises, the rewards will naturally be distributed thinner, but also be contracted in order to bring activity down to sustainable level.
+
+There is a natural n-Person Prisoner's Dilemma built into the rewards issuance distribution in Steem, in that when prices go up, user activity goes up, and it does not naturally come back down by itself, but instead by the increased rate of selling of Steem on the market by authors, and then, in a lagging manner, then downregulates user activity. Instead of depending on the market to do this, and the peaky curve that this naturally creates in the price, the reward algorithm naturally adjusts the equilibrium up and down in order to pre-empt the slowdown in a peak congested period of posting, by thinning rewards faster, the faster user activity rises, and vice versa, increasing rewards faster than the loss of activity is causing.
+
+This avoids the problem of excessive levels of exuberance and depression in the community, which is deleterious to user retention, the same way as an excessively sharp distribution of prize payouts in a gambling system exhausts the more marginal players. (Note that this is essentially a gambling system, this is why it is so compelling to users, far more than the thrill of getting 100 likes, is getting $100 worth of tokens).
